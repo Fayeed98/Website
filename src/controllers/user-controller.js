@@ -51,6 +51,8 @@ Router.post("/getUserAuthzDetails", (req,res) =>{
     })
 })
 
+/// commit 3
+
 Router.post("/postUserDetails", (req,res) =>{
     var user = new User({
         //fullName: req.body.fullName,
